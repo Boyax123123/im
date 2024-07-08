@@ -1,0 +1,260 @@
+
+body{
+   
+    margin: 0px;
+    margin-top: 0px ;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+/* Hear part */
+.header {
+    height: 180px;
+    background-color: rgb(200, 253, 190);
+}
+
+#headerText {
+    color: rgb(6, 7, 71);
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Body part */
+#bodyPart {
+    display: flex;
+    justify-content: center;
+    height: 200%;
+    background-color: rgba(21, 51, 3, 0.589);
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+ /* footer */
+#footerPart{
+    height: 150px;
+    background: rgb(78, 121, 95);
+    font-size: 25px;
+    margin: 0px;
+
+}
+
+#footerText{
+    font-size: 20px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+}
+
+
+
+
+#linkBox{
+    background-color: rgb(255, 255, 255);
+    width: 88%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    background-color: rgb(97, 89, 89);
+    height: 700px;
+}
+
+.optionText{
+    padding-top: 15px;
+    display: block; 
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px; 
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
+}
+
+#loginBox{
+    background-color: rgb(255, 255, 255);
+    width: 88%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    padding-left: 15px;
+    height: 500px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnLoginPage{
+    justify-content: center;
+    width: 350px;
+    background-color: rgb(201, 198, 198);
+    border-style: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.inputLogin{
+    height:  25px;
+    width: 400px;
+
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+#registerBox{
+    background-color: rgb(255, 255, 255);
+    width: 88%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    padding-left: 15px;
+    height: 700px;
+}
+
+.inputRegister{
+    height:  25px;
+    width: 400px;
+}
+
+#bodyPartRegister {
+    height: 150
+}
+
+/* about me */
+#aboutMeBox{
+    background-color: rgb(249, 237, 253);
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    height: 90%;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    border-radius: 20px;
+    
+}
+
+
+
+
+#aboutMePageText{
+    background-color: rgba(137, 4, 167, 0.425);
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+ 
+}
+#aboutMeText{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#picArea{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    
+}
+#pic{
+    
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    
+   
+    
+}
+
+.bulletText{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#name{
+    
+    
+}
+
+.aboutMeTable{
+    border: 1px solid black;
+    width: 900px;
+    border-collapse: collapse;
+    margin:auto;
+    background-color: white;
+
+}
+
+#tableHeader{
+    text-align: center;
+    height: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.partText{
+    font-weight: bold;
+    font-size: 23px;
+    border-top: 3px solid;
+    column-span: 4;
+    height: 40px;
+}
+
+th,td{
+    width: 25%;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 20px;
+    font-variant-numeric: 15px;
+    
+}
+
+
+
+.cols{
+    width: 100PX;
+}
+
+.left{
+    background-color: rgb(226, 226, 226);
+    width: 80px;
+    font-weight: bold;
+}
+
+.three{
+    width: 33%;
+}
